@@ -1,1 +1,2 @@
-this is the first project
+hey evryaone
+this is my first project on github
