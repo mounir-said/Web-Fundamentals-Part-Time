@@ -1,0 +1,35 @@
+#search{
+  
+    padding: 10px 20px;
+    background-color: rgb(236, 239, 230);
+    color: rgb(135, 224, 102);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 3px solid #4CAF50;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    
+ 
+}
+#add{
+  
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  border: 2px solid #4CAF50;
+  border-radius: 50%;
+
+}
+#account{
+  background-color: rgb(62, 62, 234);
+  color: white;
+  border: black solid 3px;
+  font-size: large;
+  padding: 20px;
+  
+}
+  

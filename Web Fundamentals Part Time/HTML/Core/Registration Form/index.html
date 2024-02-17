@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <form action="traitement." method="post">
+    <label for="firstName">First Name:*</label>
+    <input type="text" id="firstName" name="firstName"><br>
+
+    <label for="lastName">Last Name:*</label>
+    <input type="text" id="lastName" name="lastName"><br>
+
+    <label for="email">Email address:*</label>
+    <input type="text" id="email" name="email"><br>
+
+    <label for="password">Password:*</label>
+    <input type="password" id="password" name="password"><br>
+
+    <label for="confirmPassword">Confirm Password:*</label>
+    <input type="password" id="confirmPassword" name="confirmPassword"><br>
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br>
+
+    <label for="gender">Gender Identity:</label><br>
+    <label><input type="radio" id="male" name="gender" value="male">Male</label>
+    <label><input type="radio" id="female" name="gender" value="female">Female</label>
+    <label><input type="radio" id="nonBinary" name="gender" value="Non-Binary">Non-Binary</label>
+    <label><input type="radio" id="preferNotToAnswer" name="gender" value="free">I prefer not to answer</label><br>
+
+    <label for="description">A short description about myself</label><br>
+    <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+
+    <label for="language">Favorite language:</label>
+    <select id="language" name="language">
+      <option value="Javascript">Javascript</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="python">Python</option>
+    </select><br>
+
+    <label for="subscribe">
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes">Yes, I would like to receive periodic email updates
+    </label><br>
+
+    <input type="submit" value="Create Account">
+    <p>* indicates a required field</p>
+  </form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.col{
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  padding: 5px;
+  
+}
+.top-nav {
+  height: 150px;
+  background-color: green;
+  margin: 20px;
+}
+.side-nav {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+  margin-left: 20px;
+}
+.main {
+  height: 400px;
+  width: 700px;
+  background-color: red;
+  padding: 10px;
+  margin: 0px 20px;
+}
+.sub-content {
+  height: 200px;
+  width: 210px;
+  background-color: yellow;
+  margin: 10px;
+}
+#advertisement {
+  height: 120px;
+  width: 660px;
+  background-color: purple;
+  margin-top: 10px;
+}
+.row {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: cursive;
+}
+
+.nav-title {
+  margin: 0;
+}
+
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #2fa8f3;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+

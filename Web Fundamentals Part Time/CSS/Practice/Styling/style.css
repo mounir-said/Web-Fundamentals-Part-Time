@@ -1,0 +1,22 @@
+h1{
+  background-color: black;
+  font-family: cursive;
+  color: white;
+}
+h1 span{
+  color: aqua;
+}
+
+h2{
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  background-color: rgb(125, 163, 234);
+  text-align: end;
+  text-decoration: underline;
+  font-family: sans-serif;
+  
+}

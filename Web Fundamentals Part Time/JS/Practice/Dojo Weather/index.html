@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DojoWeather</title>
+</head>
+<body>
+  <nav>
+      <p class="nav-title">DojoWeather</p>
+      <ul class="nav-links">
+        <li><a onclick="show(this)" href="#">Burbank</a></li>
+        <li><a onclick="show(this)" href="#" class="active">Chicago</a></li>
+        <li><a onclick="show(this)" href="#">Dallas</a></li>
+      </ul>
+  </nav>
+
+  <section class="selection">
+    <p id="title">San Jose</p>
+    <div class="show-temperature">
+      <p>show temperature in</p>
+      <select name="temperature" id="temperature" onchange="convert(this)">
+        <option value="c">C°</option>
+        <option value="f">F°</option>
+      </select>
+    </div>
+  </section>
+
+  <main>
+    <section class="card">
+      <h1>Today</h1>
+      <img src="assets/some_rain.png" alt="">
+      <p>some rain</p>
+      <div class="degree">
+        <p class="hot" id="temp1">24°</p>
+        <p class="coud" id="temp2">18°</p>
+      </div>
+    </section>
+    <section class="card">
+      <h1>Tomorrow</h1>
+      <img src="assets/some_sun.png" alt="">
+      <p>some rain</p>
+      <div class="degree">
+        <p class="hot">27°</p>
+        <p class="coud">19°</p>
+      </div>
+    </section>
+    <section class="card">
+      <h1>Friday</h1>
+      <img src="assets/some_clouds.png" alt="">
+      <p>some rain</p>
+      <div class="degree">
+        <p class="hot">21°</p>
+        <p class="coud">16°</p>
+      </div>
+    </section>
+    <section class="card">
+      <h1>Saturday</h1>
+      <img src="assets/some_sun.png" alt="">
+      <p>some rain</p>
+      <div class="degree">
+        <p class="hot">26°</p>
+        <p class="coud">21°</p>
+      </div>
+    </section>
+    
+  </main>
+  <section class="pupup">
+    <div>
+      <img src="assets/cookie.png" alt="">
+    </div>
+    <div>
+      <h2>Stop! Cookie time</h2>
+    
+      <div class="cookie">
+        <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide sociel media features and to analyse our traffic. <a href="#">read more</a></p>
+        <a href="#" onclick="accept()" class="btn">i accept</a>
+      </div>
+  </div>
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
